@@ -167,7 +167,7 @@ export default function PinScreen({ onUnlock }) {
                   border: isAction ? 'none' : '1px solid rgba(212,163,89,0.3)',
                   background: isAction ? 'transparent' : 'rgba(255,255,255,0.85)',
                   backdropFilter: 'blur(10px)',
-                  fontFamily: var(--font-cute), fontSize: isAction ? '1.1rem' : '1.35rem',
+                  fontFamily: 'var(--font-cute)', fontSize: isAction ? '1.1rem' : '1.35rem',
                   fontWeight: 600, color: 'var(--brown-dark)',
                   cursor: 'pointer',
                   boxShadow: isAction ? 'none' : '0 4px 12px rgba(110,63,25,0.06)',
